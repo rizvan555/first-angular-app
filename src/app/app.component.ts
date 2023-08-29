@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'my-angular-app';
+  contain: string = 'I am learning Angular ';
+  myAge: string | number = 39;
+  // string
+  // number
+  // boolean
+  // date
+  // any
+  // object
 }
