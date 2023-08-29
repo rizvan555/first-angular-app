@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
     <h3>{{ name }}</h3>
     <h4>I am {{ myAge }} years old.</h4>
     <h5 [innerHTML]="contain"></h5>
-    <input type="text" value="{{ inputValue }}" />`,
+    <input type="text" value="{{ inputValue }}" />
+    <button (click)="metod()">Enter</button>`,
 
   styleUrls: ['./app.component.scss'],
 })
@@ -21,4 +22,8 @@ export class AppComponent {
   // date
   // any
   // object
+
+  metod() {
+    alert('I am hungry');
+  }
 }
